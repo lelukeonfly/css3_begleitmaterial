@@ -1,0 +1,22 @@
+.flex {
+    /* Layout: */
+    background-color: #999;
+    margin-bottom: 2rem;
+}
+
+.multiple_rows {
+    
+}
+
+.flex article {
+    background-color: #ccc;
+    padding: 1rem;
+    
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.multiple_rows article {
+    margin-bottom: 2rem;
+}

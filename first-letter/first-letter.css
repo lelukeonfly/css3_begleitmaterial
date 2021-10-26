@@ -1,0 +1,30 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    color: #333;
+    font-size: 1em;
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5;
+    margin: 1em;
+}
+
+p {
+    text-align: justify;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+
+
+p::first-letter {
+    color: #a00;
+    font-family: Georgia, Times, serif;
+    font-size: 4em;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    float: left;
+    margin: 0 .4rem 0 0;
+}

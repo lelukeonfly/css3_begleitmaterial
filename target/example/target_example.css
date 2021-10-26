@@ -1,0 +1,26 @@
+h1,
+p:not(:last-child),
+li:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+ul {
+    margin-bottom: 2rem;
+    padding-left: 1.5em;
+}
+
+a {
+    color: #2a59b3;
+    text-decoration: underline;
+}
+
+[id^="answer"] {
+    margin-bottom: 1rem;
+    padding: .5rem;
+    border-radius: 6px;
+}
+
+/* select every target element whose id attribute value begins with "answer" */
+[id^="answer"]:target {
+    background-color: #ffd21e;
+}

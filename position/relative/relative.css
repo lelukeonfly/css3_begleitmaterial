@@ -1,0 +1,28 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    color: #333;
+    font-size: 1em;
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #fff;
+    margin: 1em;
+}
+
+sup, sub {
+    font-size: .7em;
+    line-height: 0;
+    vertical-align: baseline;
+        /* Standard-Versatz zurücksetzen */
+    position: relative;
+}
+
+sup {
+    top: -0.5em;
+}
+
+sub {
+    top: .3em;
+}

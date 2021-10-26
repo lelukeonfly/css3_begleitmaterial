@@ -1,0 +1,23 @@
+.image_mask, .text_mask {
+    margin: 0 auto 2rem auto;
+}
+
+.image_mask {
+    width: 70%;
+}
+
+.image_mask img {
+    width: 100%;
+    height: auto;
+}
+
+.text_mask {
+    font-family: "Arial Black";
+    font-size: 8rem;
+    text-align: center;
+    background: url(../images/wood.jpg) no-repeat left center;
+    background-size: cover;
+    
+    -webkit-filter: drop-shadow(5px 5px 8px rgba(0, 0, 0, 0.4));
+    filter: drop-shadow(5px 5px 8px rgba(0, 0, 0, 0.4));
+}

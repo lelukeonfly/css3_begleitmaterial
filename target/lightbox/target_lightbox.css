@@ -1,0 +1,25 @@
+figure, figcaption {
+    padding: 0;
+}
+
+figure {
+    width: 30%;
+}
+
+figure img {
+    width: 100%; /* full width of figure */
+}
+
+figcaption {
+    font-size: .9rem;
+    font-style: italic;
+    margin-top: .5em;
+}
+
+.lightbox a {
+    text-decoration: none;
+}
+
+.lightbox a.lightbox_close {
+    display: none;
+}

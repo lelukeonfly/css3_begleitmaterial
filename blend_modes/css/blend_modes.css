@@ -1,0 +1,39 @@
+figure, div {
+    background-color: #fc0;
+}
+
+figure {
+    width: 47.5%;
+    float: left;
+    margin-bottom: 2em;
+}
+
+figure:first-child {
+    margin-right: 5%;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+    
+    mix-blend-mode: normal;
+}
+
+div {
+    font-size: 10vw;
+    font-weight: bold;
+    text-align: center;
+    clear: both;
+}
+
+div span {
+    color: #fff;
+    
+    /* Text-Kontur: */
+    -webkit-text-stroke: 2px #000;
+        /* Firefox unterstützt hier auch die -webkit-Variante */
+    text-stroke: 2px #000;
+    
+    mix-blend-mode: multiply;
+}

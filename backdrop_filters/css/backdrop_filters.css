@@ -1,0 +1,32 @@
+.image_with_text {
+    position: relative;
+    padding-bottom: 68%; /* Seitenverhältnis beim Skalieren beibehalten */
+    background: url(../images/dante_meets_beatrice.jpg) no-repeat;
+    background-size: cover;
+}
+
+.image_with_text .pane {
+    font-size: 1.4rem;
+    line-height: 1.7em;
+    text-shadow: 1px 1px rgba(255, 255, 255, 0.5);
+    padding: 1.2em;
+    
+    border-style: solid;
+    border-width: 2px;
+    border-color: #eee #888 #888 #eee;
+    
+    border-radius: 15px;
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.4);
+    
+    width: 40%;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    z-index: 1;
+    
+    box-sizing: border-box;
+}
+
+.image_with_text .pane p:first-child {
+    margin-bottom: 1em;
+}

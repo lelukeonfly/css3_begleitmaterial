@@ -1,0 +1,44 @@
+.left, .right, .center {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 5rem;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.left, .right {
+    min-height: 30rem;
+    background-color: rgba(95, 150, 210, 0.6);
+}
+
+.left {
+    float: left;
+    width: calc(100% - 300px - 1.5rem);
+    /* 100% = Breite body
+       300px = Breite rechte Spalte
+       1.5rem = Lücke zwischen Spalten */
+}
+
+.right {
+    float: right;
+    width: 300px;
+}
+
+.center {
+    background-color: rgba(190, 0, 20, 0.9);
+    width: 40%;
+    height: 20rem;
+    margin: 0 auto;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: calc(50vh - 20rem / 2);
+    /* 50vh = Hälfte der Viewport-Höhe
+       20em / 2 = Hälfte der Elementhöhe */
+}

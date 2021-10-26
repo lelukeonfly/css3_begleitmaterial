@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+}
+
+html {
+    font-size: 100%;
+    padding: 0;
+}
+
+body {
+    color: #000;
+    font-size: 1em;
+    text-align: left;
+    padding: 0;
+    background-color: #fff;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+    display: block;
+}
+
+strong, b {
+    font-weight: bold;
+}
+
+em, i {
+    font-style: italic;
+}
+
+small {
+    font-size: 0.8rem;
+}
+
+main h1,
+main p {
+    margin-bottom: 1rem;
+}
+
+main h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+main p {
+    line-height: 1.5em;
+}
+
+main :last-child {
+    margin-bottom: 0;
+}

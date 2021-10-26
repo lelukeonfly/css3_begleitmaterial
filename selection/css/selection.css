@@ -1,0 +1,13 @@
+p:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+::-moz-selection {
+    color: #fff;
+    background-color: rgba(190, 60, 160, 0.5);
+}
+
+::selection {
+    color: #fff;
+    background-color: rgba(190, 60, 160, 0.5);
+}

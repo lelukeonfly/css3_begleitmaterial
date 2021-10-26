@@ -1,0 +1,52 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    color: #333;
+    font-size: 1em;
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #fff;
+    margin: 2em;
+}
+
+/* allgemeine Formatierung der Links: */
+a {
+    color: #06c;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Button-Link: */
+a.button_link {
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: .7em;
+    background-color: #06c;
+    border-radius: 8px; /* abgerundete Ecken */
+    
+    display: block; /* Link als Block-Element anzeigen */
+    width: 10em; /* jetzt können wir eine Breite hinzufügen */
+    margin: 0 auto; /* Button im body zentrieren */
+}
+
+ul {
+    list-style: none; /* Listenpunkte entfernen */
+    padding: 0; /* Einrückung der Liste entfernen */
+    margin: 1.5em 0; /* Abstand nach oben und unten */
+    
+    display: table; /* ul verhält sich wie ein HTML table-Tag */
+    width: 100%; /* gesamte Breite des bodys */
+    border-collapse: collapse;
+        /* zwei aneinanderstoßende Konturen werden zu einer vereint */
+}
+
+li {
+    text-align: center;
+    padding: .7em; /* Innenabstand zur Kontur */
+    border: 1px solid #333;
+    
+    display: table-cell; /* li's verhalten sich wie HTML td-Tags */
+}

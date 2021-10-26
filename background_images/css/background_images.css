@@ -1,0 +1,21 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    color: #333;
+    font-size: 1em;
+    font-family: Helvetica, sans-serif;
+    margin: 1em;
+    
+    background: #fff url(../images/bg_tile.gif);
+}
+
+div {
+    width: 80%;
+    height: 30em;
+    margin: 0 auto; /* horizontal zentrieren */
+    
+    background-color: #e95;
+    background-image: url(../images/olive_trees.jpg);
+}

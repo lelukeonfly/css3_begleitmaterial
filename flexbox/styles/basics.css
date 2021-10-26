@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-size: 1em;
+    color: #333;
+    font-family: Helvetica, sans-serif;
+    width: 90%;
+    margin: 0 auto;
+    padding: 1.5em;
+    background-color: #fff;
+}
+
+h1, h2, p:not(:last-child) {
+    margin-bottom: 1em;
+}
+
+h1 {
+    font-size: 1.4rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+p {
+    line-height: 1.5em;
+    text-align: justify;
+    
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}

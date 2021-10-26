@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+        /* padding nicht zur Breite und Höhe hinzuzählen */
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    line-height: 1.3em;
+}
