@@ -1,0 +1,63 @@
+/* Base: */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.6em;
+}
+
+body{
+  width: 80%;
+  margin: 1.5rem auto;
+}
+
+/* neue HTML5-Elemente als Block-Elemente anzeigen: */
+header, main, nav, aside, article, footer, figure, figcaption {
+    display: block;
+    padding: 0;
+}
+
+html{
+  font-family: Helvetica, sans-serif;
+  color: #333;
+  background: #ded7d4;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-weight: normal;
+  padding-bottom: 1em;
+}
+
+li{
+  margin-bottom: 1em;
+}
+
+a{
+  color: #e53;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+p{
+  display: block;
+  padding-bottom: 1em;
+  hyphens: auto;
+}
+
+div, nav{
+  background: #fff;
+  margin: 2em;
+  padding: 1em;
+}
+
+nav ul{
+  padding: 0;
+  padding-bottom: 1em;
+}
+
+nav ul li{
+  list-style: none;
+}
