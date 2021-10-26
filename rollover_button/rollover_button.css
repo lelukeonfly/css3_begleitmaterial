@@ -29,3 +29,37 @@ a.button_link:hover{
   color: #fff;
   text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
 }
+
+a.button_link_css{
+  color: #a00000;
+  /* font-size: 18px; */
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  line-height: 2em;
+  /* width: 210px; */
+  width: 13em;
+  /* height: 35px; */
+  height: 2em;
+  display: block;
+  border: 2px solid #ffa736;
+  background: #ffc200;
+  /* border-radius: 7px; */
+  border-radius: 0.4em;
+  box-shadow: 0 4px 5px rgba(255, 167, 54, 0.5);
+  background: -webkit-linear-gradient(#ff8300, #fff, #ff8300, #ffe100);
+  background: -moz-linear-gradient(#ff8300, #fff, #ff8300, #ffe100);
+  background: linear-gradient(#ff8300, #fff, #ff8300, #ffe100);
+}
+
+a.button_link_css:hover{
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  border-color: #dc0aad;
+  background: #e7108d;
+  background: -webkit-linear-gradient(#d70fb3, #fff, #d70fb3, #e7108d);
+  background: -moz-linear-gradient(#d70fb3, #fff, #d70fb3, #e7108d);
+  background: linear-gradient(#d70fb3, #fff, #d70fb3, #e7108d);
+  text-shadow: 0 4px 5px rgba(231, 15, 141, 0.5);
+}
