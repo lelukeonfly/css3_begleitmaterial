@@ -46,3 +46,19 @@ h1:not(:last-child),
 p:not(:last-child) {
     margin-bottom: 1rem;
 }
+
+article:hover{
+  background: #4887d7;
+}
+
+.star{
+  transition: opacity 500ms ease-out;
+}
+
+.star:hover{
+  opacity: 1;
+}
+
+.infobox{
+  transition: background 500ms ease-out;
+}
