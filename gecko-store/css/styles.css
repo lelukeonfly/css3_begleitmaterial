@@ -61,3 +61,19 @@ nav ul{
 nav ul li{
   list-style: none;
 }
+
+.button{
+  background: #ccc;
+  display: block;
+  width: 6em;
+  padding: 0.5em;
+  text-align: center;
+  border: 3px double #222;
+  color: #222;
+}
+
+.button:hover{
+  background: #ddd;
+  border: 3px solid #222;
+  text-decoration: none;
+}
